@@ -1,0 +1,23 @@
+{
+  "name": "webpack-entry",
+  "version": "1.0.0",
+  "description": "Support folder directory as webpack's entrance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JSFiend/webpack-entry.git"
+  },
+  "keywords": [
+    "webpack",
+    "entry"
+  ],
+  "author": "JSFiend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSFiend/webpack-entry/issues"
+  },
+  "homepage": "https://github.com/JSFiend/webpack-entry#readme"
+}
