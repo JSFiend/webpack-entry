@@ -22,15 +22,38 @@ The page folder directory structure.
 # Usage
 ```javascript
 var getEntries = require('webpack-entry');
-var entry = getEntries(path.join(__dirname, './src/js/page'));
+var entry = getEntries(path.join(__dirname, 'page'));
 ```
 # output
 ```javascript
-{ app: './src/js/page/app.js',
-  home: './src/js/page/home/home.js',
-  index: './src/js/page/index/index.js',
-  second: './src/js/page/index/second/second.js' 
+{ app: './page/app.js',
+  home: './page/home/home.js',
+  index: './page/index/index.js',
+  second: './page/index/second/second.js' 
 }
+```
+
+# folder directory 
+The page folder directory structure.
+```
+|____home
+| |____admin
+| | |____index.js
+| |____index.js
+|____index
+| |____index.js
+
+```
+# Usage
+```javascript
+var getEntries = require('webpack-entry');
+var entry = getEntries(path.join(__dirname, 'page'));
+```
+# output
+```javascript
+{ admin: '/page/home/admin/index.js',
+  home: '/page/home/index.js',
+  index: '/page/index/index.js' }
 ```
 
 
