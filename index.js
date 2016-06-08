@@ -49,6 +49,6 @@ function readDir(path, entries, dirpath, options) {
 	})
 }
 
-var entries = getEntries(path.join(__dirname, 'page'), {dirAsKey: true});
-console.log(entries);
+//var entries = getEntries(path.join(__dirname, 'page'), {dirAsKey: true});
+//console.log(entries);
 module.exports = getEntries;

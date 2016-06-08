@@ -47,7 +47,7 @@ The page folder directory structure.
 # Usage
 ```javascript
 var getEntries = require('webpack-entry');
-var entry = getEntries(path.join(__dirname, 'page'));
+var entry = getEntries(path.join(__dirname, 'page'), {dirAsKey: true});
 ```
 # output
 ```javascript
